@@ -7,4 +7,4 @@
 #### Data visualization for Python
 * Basic visualization tools
 * Specialized visualization tools
-* Advanced visualization tools
+* Advanced visualization
