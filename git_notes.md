@@ -1,18 +1,56 @@
 ## Git commands
 
+`git branch -d branch_name` delete branch name
+
+`git config --global color.ui auto` to get colored diff output
+
+`git checkout' temporarily resets the code in working directory to the commit
+
+`git checkout -b new_branchname` creating a new branch and switching to it
+
+`git checkout master` if HEAD is in deattached state, run this 
+
+`git diff` shows changes made in unstaged files
+
+`git diff --staged` shows changes in staged files with files in repository 
+
+`git diff commit_old commit_new` diff between two commits
+
 `git log` shows full change history, press 'q' to quit
 
 `git log -p [file/directory]` shows full change history for file/directory 
 
-`git config --global color.ui auto` to get colored diff output
+`git log -n n` shows top 'n' commits, (e.g if n = 1, shows the most recent commit)
 
-`git diff commit1 commit2` diff between two commits
+`git log --graph --oneline master branch_name` to see the visual representation of commit history
 
-`git checkout -b new_branchname` switch to a new branch 
+`git reset --hard` resets all the uncommited changes to last commit (can't be recovered)
 
 `git reflog` all the commits that have been checkout recently
 
-## Errors and warnings
+`git reset --hard` all uncommited changes will be cleared
+
+`git remote` displays all the remote URL
+
+`git remote -v` displays the URL, -v means verbose
+
+`git remote add remote_name url_link` to add a URL to the remote name
+
+`git show commit_id` show difference with the parent  
+
+`git merge from_branch` to merge changes from *from_branch* to *to_branch(master)*
+
+`git push remote_name branch_name` this will send the files not present in the remote repository
+
+### Notes
++ `HEAD` means current commit
++ `BRANCH` is a label for a commit, deleting a branch will delete the label not the commit history of the branch.
++ `MASTER`, the default branch name in Git. As you initially make commits you're given a master branch that points to the last commit you made. Every time you commit, it moves forward automatically.
++ `UPSTREAM`, the name usually given to the location of original repository. (`git pull UPSTREAM master` to sync your clone to the original repo)
++ `REMOTE`, the name of the url of your forked repository
++ Fast-forward merges, criteria - the branch moving 'into' is an ancestor branch of 'from' branch. In this case, renaming the label will be enough rather than creating a new commit.
+
+### Errors and warnings
 
 + Should not be doing an octopus, octopus is a strategy of combining multiple versions of code together. This message appears at inappropriate combinations.
 + You are in 'detached head state', you can detach from HEAD if you move to previous versions. 
