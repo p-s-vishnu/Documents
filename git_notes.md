@@ -1,3 +1,9 @@
+## Resources
+* [Visualize git branching](https://learngitbranching.js.org/?NODEMO)
+* [Syncing your fork](https://help.github.com/articles/syncing-a-fork/#platform-windows)
+* [When to merge v/s when to rebase](https://www.derekgourlay.com/blog/git-when-to-merge-vs-when-to-rebase/)
+* [Understanding git theory](https://www.sbf5.com/~cduan/technical/git/)
+
 ## Git commands
 
 `git branch -d branch_name` delete branch name
@@ -54,3 +60,5 @@
 
 + Should not be doing an octopus, octopus is a strategy of combining multiple versions of code together. This message appears at inappropriate combinations.
 + You are in 'detached head state', you can detach from HEAD if you move to previous versions. 
+
+[Go to top](#resources)
