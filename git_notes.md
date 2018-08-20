@@ -53,7 +53,7 @@
 + `BRANCH` is a label for a commit, deleting a branch will delete the label not the commit history of the branch.
 + `MASTER`, the default branch name in Git. As you initially make commits you're given a master branch that points to the last commit you made. Every time you commit, it moves forward automatically.
 + `UPSTREAM`, the name usually given to the location of original repository. (`git pull UPSTREAM master` to sync your clone to the original repo)
-+ `REMOTE`, the name of the url of your forked repository
++ `ORIGIN`, usually the name of url of your forked repository
 + Fast-forward merges, criteria - the branch moving 'into' is an ancestor branch of 'from' branch. In this case, renaming the label will be enough rather than creating a new commit.
 
 ### Errors and warnings
