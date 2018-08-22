@@ -10,7 +10,7 @@
 
 `git config --global color.ui auto` to get colored diff output
 
-`git checkout' temporarily resets the code in working directory to the commit
+`git checkout` temporarily resets the code in working directory to the commit
 
 `git checkout -b new_branchname` creating a new branch and switching to it
 
