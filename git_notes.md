@@ -30,6 +30,8 @@
 
 `git log --graph --oneline master branch_name` to see the visual representation of commit history
 
+`git reset --soft HEAD~1`, if the changes have not been pushed to remote then it undo the most recent commit to staging area.
+
 `git reset --hard` resets all the uncommited changes to last commit (can't be recovered)
 
 `git reflog` all the commits that have been checkout recently
