@@ -1,4 +1,5 @@
 ## Resources
+* [Git initial setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 * [Visualize git branching](https://learngitbranching.js.org/?NODEMO)
 * [Syncing your fork](https://help.github.com/articles/syncing-a-fork/#platform-windows)
 * [When to merge v/s when to rebase](https://www.derekgourlay.com/blog/git-when-to-merge-vs-when-to-rebase/)
@@ -15,6 +16,8 @@
 `git checkout -b new_branchname` creating a new branch and switching to it
 
 `git checkout master` if HEAD is in deattached state, run this 
+
+`git config list` lists all the global configuration
 
 `git diff` shows changes made in unstaged files
 
