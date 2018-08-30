@@ -1,12 +1,14 @@
 # Test driven development 
 
-- Naming convention :Unlike coding conventions, the test class is usually the elaborated name of Test case.
+- Naming convention : Unlike coding conventions, the test class is usually the elaborated name of Test case.
+
 - Test driven development cycle (Red - Green refactor)
   1. Write test
   2. Test fails, gives confidence test works
   3. Write code
   4. Test pases 
   5. Refactor
+  
 - Why TDD ?
   1. First of all, TDD is a proactive apporoach. In reactive test, the tests are delayed 
   2. TDD focussed on early testing
