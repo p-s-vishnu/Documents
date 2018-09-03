@@ -1,6 +1,7 @@
 ## Resources
 * [Git initial setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 * [Visualize git branching](https://learngitbranching.js.org/?NODEMO)
+* [Git with Bitbucket](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
 * [Syncing your fork](https://help.github.com/articles/syncing-a-fork/#platform-windows)
 * [When to merge v/s when to rebase](https://www.derekgourlay.com/blog/git-when-to-merge-vs-when-to-rebase/)
 * [Understanding git theory](https://www.sbf5.com/~cduan/technical/git/)
