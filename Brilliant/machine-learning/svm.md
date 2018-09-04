@@ -16,3 +16,15 @@ additional property to maximize the margin.
 Maximizing 2 /||w|| or minimizing ||w||.
 - It can become computationally costly with more number of data points.
 - But performs even well with large number of predictor variables, outliers and noise.
+
+### Soft margin vector machines
+- Hard margin classifier breaks when supplied with inseparable data. Its solution is hinge loss function, it penalizes points that are on the wrong side of the classifier and return 0 for others.
+- As *error* goes down the following will happen
+  - ||w|| and hinge loss will decrease
+  - margin will increase
+  - incorrect classification will improve
+- The error function is a useful tool in soft margin classification, but there are a few alternatives. One such alternative is to create a ‘slack’ variable, which quantifies the total amount by which wrongly classified points can err before the classifier is thrown out.
+  - A large budget will allow the hyperplane to prioritize margin width over all else. 
+  - A small one will force it to prioritize correct classifications.
+- As the slack variable becomes large how will the number of support vectors generally change ? (It will increase)
+
