@@ -3,6 +3,7 @@
 * [Visualize git branching](https://learngitbranching.js.org/?NODEMO)
 * [Git with Bitbucket](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
 * [Syncing your fork](https://help.github.com/articles/syncing-a-fork/#platform-windows)
+* [Delete a commit](https://www.clock.co.uk/insight/deleting-a-git-commit)
 * [When to merge v/s when to rebase](https://www.derekgourlay.com/blog/git-when-to-merge-vs-when-to-rebase/)
 * [Understanding git theory](https://www.sbf5.com/~cduan/technical/git/)
 
@@ -40,8 +41,6 @@
 
 `git reflog` all the commits that have been checkout recently
 
-`git reset --hard` all uncommited changes will be cleared
-
 `git remote` displays all the remote URL
 
 `git remote -v` displays the URL, -v means verbose
@@ -53,6 +52,8 @@
 `git merge from_branch` to merge changes from *from_branch* to *to_branch(master)*
 
 `git push remote_name branch_name` this will send the files not present in the remote repository
+
+`git push --force origin <branch name>` this will *overwrite* the remote repo.
 
 ### Notes
 + `HEAD` means current commit
