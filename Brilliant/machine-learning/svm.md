@@ -28,3 +28,20 @@ Maximizing 2 /||w|| or minimizing ||w||.
   - A small one will force it to prioritize correct classifications.
 - As the slack variable becomes large how will the number of support vectors generally change ? (It will increase)
 
+### Non linear decision boundaries
+- Loosing our training data won't cause much problem until we have the set of dot product of training data. These specify the degree of similarity between vectors.
+- The above is a type of Kernel, it is easier to define a valid kernel function and then calculate boundary through it.
+- The major benefit of a kernel function is that it allows us to have all of the benefits of increasing dimensionality without actually calculating dozens or hundreds of new dimensions.
+- Some kernels, such as the radial basis kernel, can actually only be expressed as the dot product in an infinite number of dimensions.
+- Examples 
+  - Linear
+  - Polynomial
+  - Laplacial
+  - Radial basis
+  
+### More than two classes
+- SVM by itself is incapable of classifing more than two classes.But multiple simple classifiers can be used to split many
+- For each pair of points there will be n*(n-1)/2 hyperplanes where n is number of classes.
+- If the classifier is perfect then the max poll of all the hyperplanes will be always correct.
+- An alternative for one vs one classifier is one vs many classifier.
+- The confidence of a classifier is simply the magnitude of w.x - b.
