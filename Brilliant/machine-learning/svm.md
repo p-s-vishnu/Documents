@@ -45,3 +45,23 @@ Maximizing 2 /||w|| or minimizing ||w||.
 - If the classifier is perfect then the max poll of all the hyperplanes will be always correct.
 - An alternative for one vs one classifier is one vs many classifier.
 - The confidence of a classifier is simply the magnitude of w.x - b.
+
+### Connection to logistic regression
+- While plotting a graph between hinge loss function and logistic classifier, we find that both the functions are nearly same. The are able to less affected by ouliers.
+- Logistic regression is useful when there is no distinction between different classes. Whereas SVM can be employed in the counter case.
+
+## Kernels
+
+### Intro to kernels
+- Two vectors can be compared for similarity using 
+  - dot product
+  - distance between them, exp( -||x-y||^2 ) 
+- A kernel is an equation of vector with certain property. The above are example of Kernel.
+- Feature space is the set of possibile values that an object of observation can have.
+- Another example of kernel, it is any inner prodduct of two vectors in a feature space.
+- k3(x,y) = k1(x,y) + k2(x,y) 
+- Kernel Properties
+  - Symmetric in nature
+  - K(x,x) will be >= 0
+  - They follow Cauchy-Schwartz inequality
+- It’s important to note that the mappings that correspond to these functions can be exotic. The Radial Basis Function, for instance, actually corresponds to the dot product in an infinite number of dimensions
