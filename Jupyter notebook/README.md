@@ -1,10 +1,24 @@
 ## Notebooks
 
+### Datacamp
 * [Dr. Semmelweis and the discovery of handwashing](http://nbviewer.jupyter.org/github/qwertypsv/Documents/blob/master/Jupyter%20notebook/Dr.%20Semmelweis%20and%20the%20discovery%20of%20handwashing/notebook.ipynb)
 
 ### IBM - cognitive class
 
-#### Data visualization for Python
-* Basic visualization tools
-* Specialized visualization tools
-* Advanced visualization
+* #### Python for data science
+  * [Lists](https://nbviewer.jupyter.org/github/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/IBM/python%20for%20data%20science/lists.ipynb)
+  * [Dictionaries](https://nbviewer.jupyter.org/github/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/IBM/python%20for%20data%20science/dictionaries.ipynb)
+  * [Tuples](https://nbviewer.jupyter.org/github/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/IBM/python%20for%20data%20science/python%20tuples.ipynb)
+  * [Sets](https://nbviewer.jupyter.org/github/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/IBM/python%20for%20data%20science/sets.ipynb)
+  
+* #### Data visualization with Python
+  * Basic visualization tools
+  * Specialized visualization tools
+  * Advanced visualization
+
+* #### Data analysis with Python
+  * [Introduction](https://nbviewer.jupyter.org/github/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/IBM/Data%20analysis%20with%20python/DA0101EN-JL-Review-Introduction.ipynb)
+  * [Data wrangling](https://nbviewer.jupyter.org/github/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/IBM/Data%20analysis%20with%20python/DA0101EN-JL-Review-Data_Wrangling.ipynb)
+  * [Exploratory data analysis](https://nbviewer.jupyter.org/github/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/IBM/Data%20analysis%20with%20python/DA0101EN-JL-Review-Exploratory_Data_Analysis.ipynb)
+  * [Model development](https://nbviewer.jupyter.org/github/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/IBM/Data%20analysis%20with%20python/DA0101EN-JL-Review-Model_Development.ipynb)
+  * [Model evaluation and refinement](https://nbviewer.jupyter.org/github/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/IBM/Data%20analysis%20with%20python/DA0101EN-JL-Review-Model_Evaluation_and_Refinement_.ipynb)
