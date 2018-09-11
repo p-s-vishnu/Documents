@@ -1,12 +1,3 @@
-## Resources
-* [Git initial setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
-* [Visualize git branching](https://learngitbranching.js.org/?NODEMO)
-* [Git with Bitbucket](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
-* [Syncing your fork](https://help.github.com/articles/syncing-a-fork/#platform-windows)
-* [Delete a commit](https://www.clock.co.uk/insight/deleting-a-git-commit)
-* [When to merge v/s when to rebase](https://www.derekgourlay.com/blog/git-when-to-merge-vs-when-to-rebase/)
-* [Understanding git theory](https://www.sbf5.com/~cduan/technical/git/)
-
 ## Git commands
 
 `git branch -d branch_name` delete branch name
@@ -68,4 +59,16 @@
 + Should not be doing an octopus, octopus is a strategy of combining multiple versions of code together. This message appears at inappropriate combinations.
 + You are in 'detached head state', you can detach from HEAD if you move to previous versions. 
 
-[Go to top](#resources)
+## Resources
+* [Git initial setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+* [Visualize git branching](https://learngitbranching.js.org/?NODEMO)
+* [Git with Bitbucket](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
+* [Syncing your fork](https://help.github.com/articles/syncing-a-fork/#platform-windows)
+* [Delete a commit](https://www.clock.co.uk/insight/deleting-a-git-commit)
+* [When to merge v/s when to rebase](https://www.derekgourlay.com/blog/git-when-to-merge-vs-when-to-rebase/)
+* [Understanding git theory](https://www.sbf5.com/~cduan/technical/git/)
+* [How do I force git pull](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)
+* [Difference between different diff commands](https://stackoverflow.com/questions/3686452/what-are-the-differences-between-these-git-diff-commands)
+
+
+[Go to top](#git-commands)
