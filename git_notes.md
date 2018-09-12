@@ -10,6 +10,8 @@
 
 `git checkout master` if HEAD is in deattached state, run this 
 
+`git checkout --track origin/<branch_name>` git checkout for remote branches
+
 `git config list` lists all the global configuration
 
 `git diff` shows changes made in unstaged files
