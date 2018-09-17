@@ -6,8 +6,8 @@
 ### Kaggle Learning track
 
 * #### Python
- * [Boolean and conditionals](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Booleans%20and%20Conditionals.ipynb)
- * [Functions and getting help](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Functions%20and%20Getting%20Help.ipynb)
+  * [Boolean and conditionals](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Booleans%20and%20Conditionals.ipynb)
+  * [Functions and getting help](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Functions%20and%20Getting%20Help.ipynb)
 
 ### IBM - cognitive class
 
