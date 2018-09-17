@@ -3,6 +3,12 @@
 ### Datacamp
 * [Dr. Semmelweis and the discovery of handwashing](http://nbviewer.jupyter.org/github/qwertypsv/Documents/blob/master/Jupyter%20notebook/Dr.%20Semmelweis%20and%20the%20discovery%20of%20handwashing/notebook.ipynb)
 
+### Kaggle Learning track
+
+* #### Python
+ * [Boolean and conditionals](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Booleans%20and%20Conditionals.ipynb)
+ * [Functions and getting help](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Functions%20and%20Getting%20Help.ipynb)
+
 ### IBM - cognitive class
 
 * #### Python for data science
