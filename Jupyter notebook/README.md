@@ -8,6 +8,8 @@
 * #### Python
   * [Boolean and conditionals](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Booleans%20and%20Conditionals.ipynb)
   * [Functions and getting help](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Functions%20and%20Getting%20Help.ipynb)
+  * [Lists](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Lists.ipynb)
+  * [Strings and dictionaries](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Strings%20and%20dictionaries.ipynb)
 
 ### IBM - cognitive class
 
