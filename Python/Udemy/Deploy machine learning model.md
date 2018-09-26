@@ -19,6 +19,8 @@
   
 #### A Simple add function using Flask
 
+Setup flask on Ubuntu : [Link](http://hanzratech.in/2015/01/16/setting-up-flask-in-ubuntu-14-04-in-virtual-environment.html)
+
   ```python
   # install flask 
   pip install flask
