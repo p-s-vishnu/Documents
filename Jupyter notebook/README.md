@@ -10,6 +10,7 @@
   * [Functions and getting help](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Functions%20and%20Getting%20Help.ipynb)
   * [Lists](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Lists.ipynb)
   * [Strings and dictionaries](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Strings%20and%20dictionaries.ipynb)
+  * [Working with external libraries](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Working%20with%20external%20library.ipynb)
 
 ### IBM - cognitive class
 
