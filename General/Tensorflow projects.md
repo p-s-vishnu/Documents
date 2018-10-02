@@ -40,7 +40,7 @@
       6. Retrain model 
       7. Classify
       
-    Reference : (Darth Vader classifier)[https://github.com/llSourcell/tensorflow_image_classifier]
+    Reference : [Darth Vader classifier](https://github.com/llSourcell/tensorflow_image_classifier)
     
     Practice : A classifier that can be helpful for the Scientists (Utility and Accuracy)
 
