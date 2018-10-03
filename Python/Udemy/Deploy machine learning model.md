@@ -67,4 +67,4 @@ Setup flask on Ubuntu : [Link](http://hanzratech.in/2015/01/16/setting-up-flask-
 
   [Docker child commands](https://docs.docker.com/engine/reference/commandline/docker/)
   
-  `docker run -p <your_port> <docker_port> <name of image>`, used to start the conatainer. In our case, the Docker command will be `docker run -p 5000:5000 rf-api`
+  `docker run -p <your_port> <docker_port> <name of image>`, used to start the container. In our case, the Docker command will be `docker run -p 5000:5000 rf-api`
