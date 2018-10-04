@@ -51,20 +51,21 @@ Setup flask on Ubuntu : [Link](http://hanzratech.in/2015/01/16/setting-up-flask-
   
 #### Writing and building docker file
   Docker FILE commands. 
-  1. FROM
-  2. COPY 
-  3. EXPOSE
-  4. WORKDIR
-  5. RUN
-  6. CMD
-  
   1. FROM : `BASE IMAGE` can be specified using the FROM command. Here we will be using continuumio/python image.
-  2. COPY : `HOST ENVIRONMENT` files can be transferred to the `DOCKER` container. eg: scripts in the host environment can be transferred to docker and can be run there.
+  2. COPY : `HOST ENVIRONMENT` files can be transferred to the `DOCKER` container. eg: scripts in the host environment can be transferred to docker and can be run there. 
   3. EXPOSE : Used to expose a PORT NUMBER to the outer environment.
   4. WORKDIR : working dir of the container when it starts
-  5. RUN : All the required dependencies can be downloaded using it. eg :`RUN pip install ` 
+  5. RUN : All the required dependencies can be downloaded using it. eg :`RUN pip install 
   6. CMD : Similar to run command, this should be the last block. This must not terminate. eg : python flask1.py
 
   [Docker child commands](https://docs.docker.com/engine/reference/commandline/docker/)
+  
+  **Some docker commands**
+  1. `docker commit` Creates an image from container's change.
+  2. `docker diff`	Inspect changes to files or directories on a container’s filesystem
+  3. `sudo docker search` The default registry is accessible.
+  4. `sudo docker build -t IMAGENAME` Associate an image with a repository.
+  5. `docker ps` lists all running container
+  6. `docker diff` command has 3 events - 'A' A file or directory was added, 'D' A file or directory was deleted,'C' A file or directory was changed.
   
   `docker run -p <your_port> <docker_port> <name of image>`, used to start the conatainer. In our case, the Docker command will be `docker run -p 5000:5000 rf-api`
