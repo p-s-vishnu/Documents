@@ -54,9 +54,11 @@ def cluster():
     
     data['cluster_num'] = kmeans.fit_predict(counts)
     data = data.drop(['clean_sum'], axis=1)
-    
+	    
     output = BytesIO()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
+    # Results of data are written to writer object, 
+	# writer in turn writes it to binary object
     data.to_excel(writer, sheet_name='Clusters', 
                   encoding='utf-8', index=False)
     
