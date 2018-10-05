@@ -11,6 +11,9 @@
   * [Lists](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Lists.ipynb)
   * [Strings and dictionaries](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Strings%20and%20dictionaries.ipynb)
   * [Working with external libraries](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Working%20with%20external%20library.ipynb)
+  
+* #### Deep learning 
+  * [Programming in Tensorflow and Keras](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Deep%20learning/Programming%20in%20Tensorflow%20and%20Keras.ipynb)
 
 ### IBM - cognitive class
 
