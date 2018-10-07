@@ -15,4 +15,4 @@
 for production level as it is built with distributed computing in mind.
 * Pytorch is an example of an imperative language. It is best suited for researchers.
 
-**Resource** : [Siraj](https://www.youtube.com/watch?v=nbJ-2G2GXL0)
+**Resource** : [Siraj](https://www.youtube.com/watch?v=nbJ-2G2GXL0), [Code](https://github.com/llSourcell/pytorch_in_5_minutes)
