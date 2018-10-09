@@ -6,6 +6,7 @@ Created on Sat May 12 17:27:46 2018
 @author: vivekkalyanarangan
 """
 
+# Keras is a front-end library on back-end it has Tensorflow and Theanos
 from keras.datasets import mnist
 import matplotlib. pyplot as plt
 
@@ -53,10 +54,13 @@ def baseline_model():
     model.add(Conv2D(8, (3,3), input_shape=(1,28,28), activation='relu'))
     model.add(MaxPooling2D(pool_size=(2,2)))
     
-    model.add(Flatten())
+    # Flatten is used to convert a matrix into a vector
+	model.add(Flatten())
     model.add(Dense(4, activation='relu'))
+    # Softmax, it outputs the probability of occurance of each class 
     model.add(Dense(num_classes, activation='softmax'))
     
+    # optimizer - Gradient descent to Adam
     model.compile(loss='categorical_crossentropy', optimizer='adam',
                   metrics=['accuracy'])
     
