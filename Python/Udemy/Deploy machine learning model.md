@@ -71,3 +71,21 @@ Setup flask on Ubuntu : [Link](http://hanzratech.in/2015/01/16/setting-up-flask-
   6. `docker diff` command has 3 events - 'A' A file or directory was added, 'D' A file or directory was deleted,'C' A file or directory was changed.
   
   `docker run -p <your_port> <docker_port> <name of image>`, used to start the conatainer. In our case, the Docker command will be `docker run -p 5000:5000 rf-api`
+  
+#### API for image recognition
+**Train and save the model**
+1. Load dataset - download data if necessary.
+2. Importing modules 
+    - Keras model : Sequential 
+    - Keras layer : Dense layer, dropout, flatten, Conv2D, Maxpooling2D
+3. Normalize and categorize(one-hot encode) data
+3. Create baseline model and add layers on top of that
+4. Build a model
+5. Fit the model
+6. Save the model. eg : model.save('model.h5') 
+
+**Test**
+1. Create test images
+2. Load the pre-trained model
+3. Input image and convert to array.
+4. Make predictions 
