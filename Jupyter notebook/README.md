@@ -1,6 +1,14 @@
-## Notebooks
+# Jupyter Notebooks
 
-### Datacamp
+## Google MLCC
+
+### Prelimnaries
+* [(Tensorflow) Hello World](https://nbviewer.jupyter.org/github/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/Google%20MLCC/hello_world.ipynb)
+* [Tensorflow programming concepts](https://nbviewer.jupyter.org/github/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/Google%20MLCC/tensorflow_programming_concepts.ipynb)
+* [Creating and manipulating tensors](https://github.com/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/Google%20MLCC/creating_and_manipulating_tensors.ipynb)
+
+
+## Datacamp
 * [Dr. Semmelweis and the discovery of handwashing](http://nbviewer.jupyter.org/github/qwertypsv/Documents/blob/master/Jupyter%20notebook/Dr.%20Semmelweis%20and%20the%20discovery%20of%20handwashing/notebook.ipynb)
 
 ### Kaggle Learning track
