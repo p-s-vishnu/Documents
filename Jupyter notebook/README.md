@@ -11,7 +11,9 @@
 ## Datacamp
 * [Dr. Semmelweis and the discovery of handwashing](http://nbviewer.jupyter.org/github/qwertypsv/Documents/blob/master/Jupyter%20notebook/Dr.%20Semmelweis%20and%20the%20discovery%20of%20handwashing/notebook.ipynb)
 
-### Kaggle Learning track
+## Kaggle 
+
+### Learning track
 
 * #### Python
   * [Boolean and conditionals](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Python/Booleans%20and%20Conditionals.ipynb)
@@ -23,7 +25,7 @@
 * #### Deep learning 
   * [Programming in Tensorflow and Keras](https://nbviewer.jupyter.org/github/p-s-vishnu/Kaggle/blob/master/Learn/Deep%20learning/Programming%20in%20Tensorflow%20and%20Keras.ipynb)
 
-### IBM - cognitive class
+## IBM - cognitive class
 
 * #### Python for data science
   * [Lists](https://nbviewer.jupyter.org/github/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/IBM/python%20for%20data%20science/lists.ipynb)
@@ -42,3 +44,7 @@
   * [Exploratory data analysis](https://nbviewer.jupyter.org/github/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/IBM/Data%20analysis%20with%20python/DA0101EN-JL-Review-Exploratory_Data_Analysis.ipynb)
   * [Model development](https://nbviewer.jupyter.org/github/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/IBM/Data%20analysis%20with%20python/DA0101EN-JL-Review-Model_Development.ipynb)
   * [Model evaluation and refinement](https://nbviewer.jupyter.org/github/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/IBM/Data%20analysis%20with%20python/DA0101EN-JL-Review-Model_Evaluation_and_Refinement_.ipynb)
+
+## Others
+
+* [Python level 1](https://nbviewer.jupyter.org/github/p-s-vishnu/Documents/blob/master/Jupyter%20notebook/SchoolOfAITvm/Python_Level_1.ipynb)
